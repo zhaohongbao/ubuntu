@@ -1,0 +1,4 @@
+#列出占用进程
+PS -A | grep apt
+#解除进程占用
+sudo kill -9 1316
